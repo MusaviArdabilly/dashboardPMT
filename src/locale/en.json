@@ -1,0 +1,185 @@
+{
+  "general": {
+    "message": {
+      "error": {
+        "need_login": "You have to login"
+      },
+      "alert_sigmon": {
+        "title": "Attention",
+        "message": "The data provided by Sigmon application with rule if the network operator alias match with the ISP name on Sigmon."
+      },
+      "alert_montel": {
+        "title": "Attention",
+        "message": "The data provided by Montel application with rule if the network operator alias match with the ISP name on Montel."
+      }
+    },
+    "menu": {
+      "dashboard": "Dashboard",
+      "settings": "Settings",
+      "landing_page": "Landing Page",
+      "executive_dashboard": "Executive Dashboard",
+      "map": "Map",
+      "new_map": "New Map",
+      "coverage_throughput_performance": "Quality of Service & Quality of Experience Summary",
+      "public_opinion_satisfaction": "Sigmon Summary",
+      "ticketing_summary": "Ticketing Summary",
+      "operator_alarm": "Alarm Operator",
+      "alarm_status": "Alarm Status",
+      "alarm_category": "Alarm Category",
+      "operator": "Operator Dashboard",
+      "telco_infra_dashboard": "Telco Infra Dashboard",
+      "alarm_dashboard": "Alarm Dashboard",
+      "qoe_summary": "Sigmon Summary",
+      "qoe_dashboard": "Test Result",
+      "qoe": "Quality of Experience",
+      "qoe_availability": "Availability Device",
+      "qos_dashboard": "Quality of Service & Quality of Experience",
+      "qos": "Quality of Service",
+      "montel_dashboard": "MonTel Dashboard",
+      "gis_infra": "GIS Infra Dashboard",
+      "ticketing_management_system": "Ticketing Management System",
+      "ticketing_management": "Ticketing Management",
+      "analytics_dashboard": "Analytic Dashboard",
+      "analytics_summary": "Analytic Summary",
+      "bad_spot": "Bad Spot",
+      "map_infrastructure": "Map Infrastructure",
+      "admin_settings": "Admin Settings",
+      "user_management": "User Management",
+      "site_settings": "Site Settings",
+      "activity_log": "Activity Log",
+      "network_operator": "Network Operator",
+      "stage_log": "Stage Log",
+      "backup": "Backup",
+      "province": "Province",
+      "city": "City",
+      "district": "District",
+      "sub_district": "Sub District",
+      "operator_cellular": "Operator Cellular",
+      "fixed_broadband": "Fixed Broadband",
+      "list_application": "List Application",
+      "sub_district_potential": "Sub-district Potential",
+      "sub_district_potential_category": "Category",
+      "sub_district_potential_sub-category": "Sub-category",
+      "sub_district_potential_create": "Create Data",
+      "sub_district_potential_details": "Details Data",
+      "sub_district_potential_edit": "Edit Data"
+    }
+  },
+  "login": {
+    "form": {
+      "username": "Username",
+      "password": "Password",
+      "button_login": "Login",
+      "recaptcha_1": "This site is protected by reCAPTCHA and the google",
+      "recaptcha_2": "Privacy Policy",
+      "recaptcha_3": "and",
+      "recaptcha_4": "Terms of Service",
+      "recaptcha_5": "apply."
+    },
+    "forgot_password": "Forgot Password?"
+  },
+  "landing": {
+    "header": {
+      "welcome": "Welcome",
+      "app_name": "Dashboard Monitoring Telecommunication System",
+      "version": "version"
+    },
+    "body": {
+      "executive_dashboard": "Executive Dashboard",
+      "operator": "Operator Dashboard",
+      "map": "Map",
+      "analysis_dashboard": "Analytic Dashboard",
+      "ticket_management_system": "Ticket Management System",
+      "network_management_system": "Network Management System",
+      "camera_cctv": "Camera CCTV"
+    },
+    "footer": {
+      "create_user": "Register User",
+      "module": "Admin Page",
+      "docs": "Download",
+      "contact_us": "Contact Us"
+    }
+  },
+  "form-validation": {
+    "integer": "Must be an Integer",
+    "decimal": "Must be a Decimal with dot notaion (.)",
+    "required": "Required"
+  },
+  "ui": {
+    "button_create": "Add New",
+    "button_copy_latlong": "Copy Long Lat",
+    "button_add_operator": "Add Network Operator",
+    "button_create_data": "Create",
+    "button_save": "Save",
+    "button_edit": "Edit",
+    "button_delete": "Delete",
+    "button_download": "Download",
+    "button_upload": "Upload",
+    "button_submit": "Submit",
+    "button_apply": "Apply",
+    "button_details": "See Details",
+    "button_reset": "Reset",
+    "button_cancel": "Cancel",
+    "button_see_map": "See On Map",
+    "button_view": "View",
+    "button_close": "Close",
+    "button_send_report": "Send Report",
+    "button_create_ticket": "Create Ticket",
+    "button_send_report_ticket": "Send Report Ticket",
+    "button_test_result": "Test Result",
+    "button_device_list": "Device List",
+    "button_summary_ticket": "See Whole Ticket Summary",
+    "text_piece": {
+      "file": "File",
+      "setting": "Setting",
+      "log_out": "Logout",
+      "copyright": "Copyright"
+    },
+    "field": {
+      "start_date": "start date",
+      "end_date": "end date",
+      "province": "Province",
+      "city": "City",
+      "district": "District",
+      "sub_district": "Subdistrik"
+    },
+    "message": {
+      "date_range": "Date range cannot be blank or empty",
+      "prepare_data": "Please wait, we prepare your data ..."
+    },
+    "table_piece": {
+      "sort": "Sort By",
+      "asc": "Ascending",
+      "desc": "Descending",
+      "search": "Search",
+      "service": "Service",
+      "start_date": "start date",
+      "end_date": "end date",
+      "last_update": "Last updated"
+    },
+    "tooltip_details": "Click/Tap to see full details",
+    "menu_title": {
+      "ticketing_management_table": "Ticket Table",
+      "montel_channel": "Channel",
+      "montel_results": "Results",
+      "ticketing_summary_all": "All Ticket Summary",
+      "ticketing_summary_cell": "Operator Cellular Ticket",
+      "ticketing_summary_fo": "Fixed Broadband Ticket"
+    },
+    "summary_card": {
+      "ticket_total": "Total Tickets",
+      "ticket_open": "Open Tickets",
+      "ticket_progress": "Ticket On Progress",
+      "ticket_closed": "Ticket Closed"
+    },
+    "profile_page": {
+      "profile": "Profile",
+      "change_password": "Change Password",
+      "change_password_label": {
+        "current_password": "Current Password",
+        "new_password": "New Password"
+      },
+      "terms_condition": "Terms and Condition"
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "general": {
+    "message": {
+      "error": {
+        "need_login": "Login terlebih dahulu"
+      },
+      "alert_sigmon": {
+        "title": "Perhatian",
+        "message": "Data yang disediakan oleh aplikasi Sigmon dengan aturan jika alias operator jaringan cocok dengan nama ISP di Sigmon."
+      },
+      "alert_montel": {
+        "title": "Perhatian",
+        "message": "Data yang disediakan oleh aplikasi Montel dengan aturan jika jaringan alias operator cocok dengan nama ISP di Montel."
+      }
+    },
+    "menu": {
+      "dashboard": "Dasbor",
+      "settings": "Pengaturan",
+      "landing_page": "Halaman Utama",
+      "executive_dashboard": "Beranda Eksekutif",
+      "map": "Peta",
+      "new_map": "Peta Baru",
+      "coverage_throughput_performance": "Kualitas Cakupan Jaringan",
+      "public_opinion_satisfaction": "Ringkasan Kualitas Pengalaman",
+      "ticketing_summary": "Rangkuman Tiket",
+      "operator_alarm": "Alarm Operator",
+      "alarm_status": "Status Alarm",
+      "alarm_category": "Kategori Alarm",
+      "operator": "Operator",
+      "telco_infra_dashboard": "Beranda Infrastruktur Telekomunikasi",
+      "alarm_dashboard": "Beranda Alarm",
+      "qoe_summary": "Ringkasan Sigmon",
+      "qoe_dashboard": "Hasil Test",
+      "qoe": "Kualitas Pengalaman",
+      "qoe_availability": "Ketersediaan Perangkat",
+      "qos_dashboard": "Beranda Kualitas Layanan",
+      "qos": "Beranda Kualitas Layanan",
+      "montel_dashboard": "Dasbor MonTel",
+      "gis_infra": "GIS Infra Dashboard",
+      "ticketing_management_system": "Sistem Manajemen Tiket",
+      "ticketing_management": "Manajemen Tiket",
+      "analytics_dashboard": "Beranda Analisis",
+      "analytics_summary": "Ringkasan Analisis",
+      "bad_spot": "Bad Spot",
+      "map_infrastructure": "Peta Infrastruktur ",
+      "admin_settings": "Pengturan Admin",
+      "user_management": "Manajemen Pengguna",
+      "site_settings": "Pengaturan Situs Web",
+      "activity_log": "Catatan Aktivitas",
+      "network_operator": "Operator Jaringan",
+      "stage_log": "Catatan ETL",
+      "backup": "Pencadangan",
+      "province": "Provinsi",
+      "city": "Kota",
+      "district": "Kecamatan",
+      "sub_district": "Kelurahan",
+      "operator_cellular": "Operator Seluler",
+      "fixed_broadband": "Operator Fiber Optik",
+      "list_application": "Daftar Aplikasi",
+      "sub_district_potential": "Potensi Desa",
+      "sub_district_potential_category": "Kategori",
+      "sub_district_potential_sub-category": "Sub-kategori",
+      "sub_district_potential_create": "Tambah Data Baru",
+      "sub_district_potential_details": "Detil Data",
+      "sub_district_potential_edit": "Ubah Data"
+    }
+  },
+  "login": {
+    "form": {
+      "username": "Username",
+      "password": "Kata Sandi",
+      "recaptcha_1": "Situs ini dilindungi oleh reCAPTCHA dan berlaku",
+      "recaptcha_2": "Kebijakan Privasi",
+      "recaptcha_3": "dan",
+      "recaptcha_4": "Persyaratan Layanan",
+      "recaptcha_5": "google.",
+      "button_login": "Masuk"
+    },
+    "forgot_password": "Lupa kata sandi?"
+  },
+  "landing": {
+    "header": {
+      "welcome": "Selamat datang",
+      "app_name": "Sistem Dashboard Monitoring Telekomunikasi",
+      "version": "versi"
+    },
+    "body": {
+      "executive_dashboard": "Beranda Eksekutif",
+      "operator": "Beranda Operator",
+      "map": "Peta",
+      "analysis_dashboard": "Beranda Analisis",
+      "ticket_management_system": "Manajemen Tiket",
+      "network_management_system": "Manajemen Jaringan",
+      "camera_cctv": "Kamera CCTV"
+    },
+    "footer": {
+      "create_user": "Daftarkan Pengguna",
+      "module": "Halaman Admin",
+      "docs": "Unduh",
+      "contact_us": "Hubungi Kami"
+    }
+  },
+  "form-validation": {
+    "integer": "Harus berupa angka",
+    "decimal": "Harus berupa desimal dengan notasi titk (.)",
+    "required": "Wajib diisi"
+  },
+  "ui": {
+    "button_create": "Tambah Baru",
+    "button_copy_latlong": "Salin Long Lat",
+    "button_add_operator": "Tambah Operator Jaringan",
+    "button_create_data": "Buat",
+    "button_save": "Simpan",
+    "button_edit": "Ubah",
+    "button_delete": "Hapus",
+    "button_download": "Unduh Data",
+    "button_upload": "Unggah",
+    "button_submit": "Kirim",
+    "button_apply": "Terapkan",
+    "button_details": "Lihat Lengkap",
+    "button_reset": "Reset",
+    "button_cancel": "Batalkan",
+    "button_see_map": "Lihat di Peta",
+    "button_view": "Lihat",
+    "button_close": "Tutup",
+    "button_send_report": "Kirim Laporan",
+    "button_create_ticket": "Buat Tiket Baru",
+    "button_send_report_ticket": "Kirim Laporan Tiket",
+    "button_test_result": "Hasil Tes",
+    "button_device_list": "Daftar Perangkat",
+    "button_summary_ticket": "Lihat Semua Ringkasan Tiket",
+    "text_piece": {
+      "file": "Berkas",
+      "setting": "Pengaturan",
+      "log_out": "Keluar",
+      "copyright": "Hak Cipta"
+    },
+    "message": {
+      "date_range": "Tanggal awal dan tanggal akhir tidak boleh kosong",
+      "prepare_data": "Mohon tunggu, kami sedang menyiapkan data kamu ..."
+    },
+    "field": {
+      "start_date": "tanggal mulai",
+      "end_date": "tanggal akhir",
+      "province": "Provinsi",
+      "city": "Kota",
+      "district": "Kecamatan/Distrik",
+      "sub_district": "Desa/Kelurahan"
+    },
+    "table_piece": {
+      "sort": "Urutkan",
+      "asc": "Naik",
+      "desc": "Turun",
+      "search": "Cari",
+      "service": "Layanan",
+      "start_date": "Tanggal Mulai",
+      "end_date": "Tanggal Akhir",
+      "last_update": "Terakhir Diperbarui"
+    },
+    "tooltip_details": "Klik atau tap untuk lihat lengkap",
+    "menu_title": {
+      "ticketing_management_table": "Tabel Tiket",
+      "montel_channel": "Kanal",
+      "montel_results": "Hasil",
+      "ticketing_summary_all": "Tiket Keseluruhan",
+      "ticketing_summary_cell": "Tiket Operator Seluler",
+      "ticketing_summary_fo": "Tiket Operator Fiber Optik"
+    },
+    "summary_card": {
+      "ticket_total": "Tiket Total",
+      "ticket_open": "Tiket Tersedia",
+      "ticket_progress": "Tiket dalam perkembangan",
+      "ticket_closed": "Tiket Di Tutup"
+    },
+    "profile_page": {
+      "profile": "Informasi Akun",
+      "change_password": "Ganti Password",
+      "change_password_label": {
+        "current_password": "Password Saat ini",
+        "new_password": "Password Baru"
+      },
+      "terms_condition": "Syarat dan Ketentuan"
+    }
+  }
+}

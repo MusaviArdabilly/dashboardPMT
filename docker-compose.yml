@@ -1,0 +1,22 @@
+version: "3.3"
+services:
+    pmt-dashboard:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: always
+        image: pmt-dashboard:1.0.0
+        container_name: pmt-dashboard
+        networks:
+          - proxy
+        labels:
+          - "traefik.enable=true"
+          - "traefik.docker.network=proxy"
+          - "traefik.http.routers.pmt-dashboard.tls=true"
+          - "traefik.http.routers.pmt-dashboard.entrypoints=websecure"
+          - "traefik.http.routers.pmt-dashboard.rule=Host(`staging-pmt.teamdev.id`)"
+          - "traefik.http.routers.pmt-dashboard.service=pmt-dashboard"
+          - "traefik.http.services.pmt-dashboard.loadbalancer.server.port=80"
+networks:
+  proxy:
+    external: true

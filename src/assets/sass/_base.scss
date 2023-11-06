@@ -1,0 +1,57 @@
+@import "./resets", "./variable";
+
+
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.v-application {
+  font-family: "Montserrat", sans-serif !important;
+  .text-lg-body-2 {
+    font-family: "Montserrat", sans-serif !important;
+  }
+}
+
+.active {
+  color: #1976d2 !important ;
+  background-color: transparent;
+}
+
+.img-responsive {
+  width: 100%;
+  height: 100%;
+}
+
+.v-toolbar__content {
+  font-size: 14px !important;
+}
+
+.crd-login {
+  width: 30%;
+}
+
+.e-listview .e-list-item {
+  background-color: #ccc !important;
+}
+
+.v-navigation-drawer--fixed {
+  z-index: 100;
+}
+
+// .v-input__slot  {
+//   width: 30% !important;
+// }
+
+// .v-text-field--outlined > .v-input__control > .v-input__slot {
+//   margin-top: 18px;
+//   min-height: 38px !important;
+// }
+
+// .v-text-field--enclosed .v-input__prepend-inner {
+//   margin-top: 8px !important;
+// }

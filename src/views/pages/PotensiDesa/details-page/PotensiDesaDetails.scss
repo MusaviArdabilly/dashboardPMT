@@ -1,0 +1,70 @@
+.v-text-field > .v-input__control > .v-input__slot:before {
+	border-bottom: 1px solid #000000;
+	border-style: none !important;
+}
+.theme--light.v-input--is-disabled input,
+.theme--light.v-input--is-disabled textarea {
+	color: #000000 !important;
+}
+.update-log-content {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+}
+.update-log-title {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+}
+.input-field {
+	width: 37rem;
+	padding: 0 1rem;
+}
+.edit-button {
+	width: 200px;
+	height: 36px;
+	border-radius: 5px;
+	padding: 6px, 16px, 6px, 16px;
+	margin-right: 4rem;
+	background-color: #134889;
+}
+.edit-button:hover {
+	background-color: rgba(19, 72, 137, 0.78);
+}
+.edit-button:disabled {
+	background-color: #c9c9c9;
+	color: #000000;
+	cursor: not-allowed;
+}
+
+.save-button {
+	width: 200px;
+	height: 36px;
+	border-radius: 5px;
+	padding: 6px, 16px, 6px, 16px;
+	margin-right: 4rem;
+	background-color: #134889;
+}
+.cancel-button {
+	width: 200px;
+	height: 36px;
+	color: black;
+	border-radius: 5px;
+	padding: 6px, 16px, 6px, 16px;
+	margin-right: 4rem;
+	border: 1px solid #134889;
+	background-color: rgb(255, 255, 255);
+}
+.bottom-navigation {
+	width: 100%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+.data-unit {
+	color: gray;
+}

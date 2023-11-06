@@ -1,0 +1,35 @@
+/* @import "../../../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../../../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../../../node_modules/@syncfusion/ej2-vue-dropdowns/styles/material.css"; */
+.usr-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.user-management {
+  width: 100%;
+}
+
+.user-table {
+  margin-top: 2rem;
+}
+
+.user-table .tbl,
+.v-sheet.v-toolbar {
+  border-radius: 10px !important;
+}
+
+.e-ddl.e-input-group.e-control-wrapper{
+    .e-ddl-icon::before{
+         margin-right: 20px !important;
+    }
+}
+
+.item-per-page {
+  width: 150px;
+  .item-per-page::before {
+        content: "Item";
+        margin-top: 0.5em;
+        margin-right: 1em;
+   }
+}

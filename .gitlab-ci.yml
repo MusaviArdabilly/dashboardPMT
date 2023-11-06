@@ -1,0 +1,170 @@
+# Using SSH keys with GitLab CI/CD
+image: alpine:3.13
+variables:
+    PRE_RELEASE_TAG: '/^v[0-9]+\.[0-9]+\.[0-9]+.*\.[0-9]+/'
+stages:
+    - test
+    - build
+    - deploy
+    - changelog
+    - release
+run-test:
+    stage: test
+    only:
+        - release
+        - master
+    script:
+        - echo “PMT Core FE test already comes…”
+        - echo "$CI_COMMIT_MESSAGE"
+    tags:
+        - staging
+run-build:
+    stage: build
+    only:
+        - release
+        - master
+    script:
+        - echo “PMT Core FE build already comes…”
+        - apk update
+        - apk add openssh-client bash
+        - apk add sshpass
+    tags:
+        - staging
+run-deploy-staging:
+    stage: deploy
+    only:
+        - release
+    before_script:
+        - apk update
+        - apk add openssh-client bash
+        - apk add sshpass
+        - 'command -v ssh-agent >/dev/null || ( apk add --update openssh )' 
+        - eval $(ssh-agent -s)
+        - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+        - mkdir -p ~/.ssh
+        - chmod 700 ~/.ssh
+        - touch ~/.ssh/known_hosts
+        - ssh-keyscan -p 22 -t ecdsa $SSH_HOST  >> ~/.ssh/known_hosts
+        - chmod 644 ~/.ssh/known_hosts
+    script:
+        - echo “PMT Core FE deploy already comes…”
+        - sshpass -p $SSH_PASSWORD ssh -o StrictHostKeyChecking=no $SSH_USERNAME@$SSH_HOST -p 22 "
+            cd traefik-as-a-reverse-proxy/apps/staging-pmt;
+            git branch;
+            docker --version;
+            docker-compose --version;
+            $PULL_REPOSITORY_URL;
+            docker-compose up --build -d;
+            exit
+            "
+    environment:
+        name: staging
+        url: https://staging-pmt.teamdev.id
+    tags:
+        - staging
+run-deploy-production:
+    stage: deploy
+    only:
+        - master
+    before_script:
+        - apk update
+        - apk add openssh-client bash
+        - apk add sshpass
+        - 'command -v ssh-agent >/dev/null || ( apk add --update openssh )' 
+        - eval $(ssh-agent -s)
+        - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+        - mkdir -p ~/.ssh
+        - chmod 700 ~/.ssh
+        - touch ~/.ssh/known_hosts
+        - ssh-keyscan -p $SSH_PORT -t ecdsa $SSH_HOST  >> ~/.ssh/known_hosts
+        - chmod 644 ~/.ssh/known_hosts
+    script:
+        - echo “PMT Core FE deploy already comes…”
+        - sshpass -p $SSH_PASSWORD ssh -o StrictHostKeyChecking=no $SSH_USERNAME@$SSH_HOST -p $SSH_PORT "
+            cd $PROJECT_DIR;
+            git branch;
+            docker --version;
+            docker-compose --version;
+            $PULL_REPOSITORY_URL;
+            docker-compose up --build -d;
+            exit
+            "
+    environment:
+        name: production
+        url: https://www.kominfo.go.id
+    tags:
+        - production
+run-changelog:
+    stage: changelog
+    image:
+        name: alpine/git
+        entrypoint: [""]
+    rules:
+        - if: $CI_COMMIT_TAG
+    before_script:
+        - echo "$CI_COMMIT_TAG"
+    script:
+        - echo RELEASE_TAG=$CI_COMMIT_TAG >> variables.env
+        - echo '## Changelog' >> CHANGELOG.md
+        - git tag -l -n9 $CI_COMMIT_TAG >> CHANGELOG.md
+        - echo '## Commits' >> CHANGELOG.md 
+        - git log --no-merges --full-diff  --pretty="- %s (%h) - %cr" $(git tag -l --sort=-v:refname | head -n 2 | tail -n 1)..$CI_COMMIT_TAG  >> CHANGELOG.md
+        - echo '## Merges' >> CHANGELOG.md 
+        - git log --merges --pretty="- %s (%h) - %cr" $(git tag -l --sort=-v:refname | head -n 2 | tail -n 1)..$CI_COMMIT_TAG  >> CHANGELOG.md
+        - echo '## Contributors' >> CHANGELOG.md
+        - git log --pretty="- %an%n- %cn" $CI_COMMIT_TAG | sort -u >> CHANGELOG.md
+    artifacts:
+        paths:
+            - CHANGELOG.md
+    tags:
+        - staging
+run-pre-release:
+    stage: release
+    image: registry.gitlab.com/gitlab-org/release-cli:latest
+    needs:
+    - job: run-changelog
+      artifacts: true
+    artifacts:
+        paths:
+            - CHANGELOG.md
+        expire_in: never
+    rules:
+        - if: $CI_COMMIT_TAG == null
+          when: never
+        - if: $CI_COMMIT_TAG =~ $PRE_RELEASE_TAG
+    before_script:
+        - echo "$CI_COMMIT_TAG"
+    script:
+        - echo "Running pre-release for $CI_COMMIT_TAG"
+    release:
+        name: 'Pre-release $CI_COMMIT_TAG'
+        description: CHANGELOG.md
+        tag_name: '$CI_COMMIT_TAG'
+        ref: '$CI_COMMIT_SHORT_SHA'
+    tags:
+        - staging
+run-release:
+    stage: release
+    image: registry.gitlab.com/gitlab-org/release-cli:latest
+    needs:
+    - job: run-changelog
+      artifacts: true
+    artifacts:
+        paths:
+            - CHANGELOG.md
+        expire_in: never
+    rules:
+        - if: $CI_COMMIT_TAG == null
+          when: never
+        - if: $CI_COMMIT_TAG !~ $PRE_RELEASE_TAG
+    before_script:
+        - echo "$CI_COMMIT_TAG"
+    script:
+        - echo "Running release for $CI_COMMIT_TAG"
+    release:
+        name: 'Release $CI_COMMIT_TAG'
+        description: CHANGELOG.md
+        tag_name: '$CI_COMMIT_TAG'
+        ref: '$CI_COMMIT_SHORT_SHA'
+    tags:
+        - staging

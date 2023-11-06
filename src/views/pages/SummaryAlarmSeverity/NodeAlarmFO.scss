@@ -1,0 +1,120 @@
+.next {
+  position: absolute;
+  top: 623px;
+  right: 1375px;
+}
+
+.previ {
+  position: absolute;
+  top: 623px;
+  right: 400px;
+}
+.severity {
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  width: 80px;
+  color: rgba(224, 73, 73, 1);
+  background-color: rgba(255, 227, 227, 1);
+}
+
+.qoe {
+  height: 100%;
+}
+
+.bg-alarm {
+  background-image: url("../../../assets/image/bg-alarm.svg");
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 40px !important;
+  background-position: center;
+}
+
+.bg-alarm-zero {
+  background-image: url("../../../assets/image/alarm_zero.svg");
+  background-size: cover;
+  object-fit: fill;
+  border-radius: 40px !important;
+  background-position: center;
+}
+
+.v-input--selection-controls {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.v-progress-linear--rounded {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+
+.v-sheet.v-card {
+  border-radius: 10px;
+}
+
+.active-card {
+  border: 1px solid #169cd6;
+  box-shadow: rgba(3, 150, 248, 0.24) 0px 3px 8px !important;
+  color: #169cd6 !important;
+}
+
+.active-btn {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(45, 116, 213, 1) 11.2%,
+    rgba(121, 137, 212, 1) 91.2%
+  );
+  color: white !important;
+}
+
+.alarm-summary {
+  position: relative;
+  top: 330px;
+  color: #fff !important;
+}
+
+#total-alarm {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.detail-alarm {
+  cursor: pointer;
+}
+
+.v-card {
+  &.alarm-card {
+    .operator-name {
+      //   max-height: 7vh;
+      //   height: 100%;
+      p {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+    .alarm-name {
+      margin-left: 1.5rem;
+      max-height: 9vh;
+      p {
+        &:last-child {
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          max-width: 25rem;
+        }
+      }
+    }
+    .severity-wrap {
+      margin-left: 1.5rem;
+    }
+    .alarm-nodes-wrap {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+  }
+}

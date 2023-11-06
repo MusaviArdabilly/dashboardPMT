@@ -1,0 +1,70 @@
+.pmt-carousel {
+  position: relative;
+  .carousel-nav {
+    background: transparent;
+    position: absolute;
+    bottom: -13rem;
+    &.prev-btn {
+      left: 20rem;
+    }
+    &.next-btn {
+      right: 2rem;
+    }
+  }
+  .v-carousel__controls {
+    .v-item-group {
+      .v-btn--active {
+        i {
+          color: #656363;
+        }
+        &::before {
+          opacity: 0 !important;
+        }
+      }
+      .v-carousel__controls__item:not(.v-btn--active) {
+        i {
+          color: #d4d4d4;
+        }
+      }
+      .v-btn--icon {
+        &.v-size--small {
+          width: 10px !important;
+        }
+      }
+    }
+  }
+}
+.pmt-progress-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  .icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding: 0.8rem;
+    background: var(--backgroundIcon);
+    text-align: center;
+    span {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+  .bar-wrap {
+    padding: 0 !important;
+    margin-left: 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    label {
+      font-weight: 600;
+    }
+    .bar-label {
+      font-weight: 700;
+      margin-top: 1.1rem;
+      display: inline-flex;
+    }
+  }
+}

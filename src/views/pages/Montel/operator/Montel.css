@@ -1,0 +1,72 @@
+.montel-card {
+  border-radius: 20px;
+}
+
+.v-divider {
+  border-color: #e9e9e9;
+}
+
+.montel-report {
+  background-image: linear-gradient(
+    181deg,
+    rgba(2, 0, 97, 1) 15%,
+    rgba(97, 149, 219, 1) 158.5%
+  );
+  color: #fff;
+  box-shadow: rgba(8, 8, 8, 0.233) px 7px 29px 0px !important;
+}
+
+.total-in-progress {
+  background-image: radial-gradient(
+    circle 465px at -15.1% -25%,
+    rgba(17, 130, 193, 1) 0%,
+    rgba(67, 166, 238, 1) 49%,
+    rgba(126, 203, 244, 1) 90.2%
+  );
+  color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+.total-complete {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(102, 203, 149, 1) 11.2%,
+    rgba(39, 210, 175, 1) 98.7%
+  );
+  color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+.reported {
+  background-image: linear-gradient(
+    181deg,
+    rgba(249, 97, 100, 1) 0.4%,
+    rgba(250, 126, 129, 1) 89.6%
+  );
+  color: #fff;
+  box-shadow: rgba(111, 101, 100, 0.2) 0px 7px 29px 0px !important;
+}
+
+.ticket-total {
+  background-image: linear-gradient(
+    181deg,
+    rgba(147, 230, 241, 1) 0%,
+    rgba(145, 192, 241, 1) 45.5%
+  );
+  color: #fff;
+  box-shadow: rgba(100, 107, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+.filter-text {
+  color: #5e5873;
+}
+
+.item-per-page {
+  width: 150px;
+}
+
+.item-per-page::before {
+  content: "Item";
+  margin-top: 0.5em;
+  margin-right: 1em;
+}

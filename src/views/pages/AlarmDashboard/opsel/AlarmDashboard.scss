@@ -1,0 +1,118 @@
+.details {
+  cursor: pointer;
+}
+
+.v-input--selection-controls {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+.v-sheet{
+  &.v-card {
+    box-shadow: black;
+    border-radius: 10px;
+  }
+}
+
+.category {
+  border-radius: 20px !important;
+}
+
+.miniBarProgress {
+  background-color: #8a898a;
+  height: 100%;
+  position: absolute;
+  top: 0rem;
+  border-radius: 20px;
+  left: 0rem;
+}
+
+.miniBar {
+  height: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  position: relative;
+  width: -webkit-calc(100% - 2rem);
+  width: -moz-calc(100% - 2rem);
+  width: calc(100% - 2rem);
+  margin-right: 0.5rem;
+}
+.alarm-severity {
+  padding: 0px 20px;
+  background: #f6f6f6 !important;
+  height: 100%;
+}
+
+.ticketing-title {
+  font-size: 24px;
+}
+
+.refresh-btn {
+  border-radius: 20px !important;
+}
+.v-progress-linear--rounded {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+
+.crd-coverage {
+  border: 1px solid black !important;
+  /* border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important; */
+}
+
+.Telkomsel {
+  margin-top: 25px;
+}
+
+.Indosat {
+  margin-top: 30px;
+  padding-bottom: 27px;
+}
+
+.XL {
+  margin-top: 30px;
+}
+
+.H3I {
+  margin-top: 25px;
+}
+
+.Smartfren {
+  margin-top: 25px;
+}
+
+.STI {
+  margin-top: 30px;
+}
+
+.card-items {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.opsel-2 {
+  /* border-right: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9; */
+  /* margin-top: 11px; */
+}
+
+/* .opsel-5 {
+  margin-top: 0px;
+  border-right: 1px solid #e9e9e9;
+  border-left: 1px solid #e9e9e9;
+} */
+
+/* .opsel-2-chart {
+  padding-top: 25px;
+} */
+
+.ticketing-card {
+  border-radius: 25px;
+}
+
+/* .STI  {
+  width: 5% !important;
+} */

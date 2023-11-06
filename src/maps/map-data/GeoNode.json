@@ -1,0 +1,559 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "provinsi_point.1",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            115.13199882,
+            -8.36959527
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 1,
+          "kp": "51",
+          "provinsi": "Bali"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.2",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.10883374,
+            -6.45635855
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 2,
+          "kp": "36",
+          "provinsi": "Banten"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.3",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            102.340159,
+            -3.55601178
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 3,
+          "kp": "17",
+          "provinsi": "Bengkulu"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.4",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            110.44596495,
+            -7.89493357
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 4,
+          "kp": "34",
+          "provinsi": "D.I. Yogyakarta"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.5",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.83448362,
+            -6.20065207
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 5,
+          "kp": "31",
+          "provinsi": "D.K.I. Jakarta"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.6",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            122.37645983,
+            0.6867719
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 6,
+          "kp": "75",
+          "provinsi": "Gorontalo"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.7",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            102.72690738,
+            -1.69877439
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 7,
+          "kp": "15",
+          "provinsi": "Jambi"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.8",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            107.60289471,
+            -6.91997829
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 8,
+          "kp": "32",
+          "provinsi": "Jawa Barat"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.9",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            110.20129437,
+            -7.25874652
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 9,
+          "kp": "33",
+          "provinsi": "Jawa Tengah"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.10",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            112.73279096,
+            -7.71992096
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 10,
+          "kp": "35",
+          "provinsi": "Jawa Timur"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.11",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            111.12115637,
+            -0.08705353
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 11,
+          "kp": "61",
+          "provinsi": "Kalimantan Barat"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.12",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            115.43862511,
+            -3.00845186
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 12,
+          "kp": "63",
+          "provinsi": "Kalimantan Selatan"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.13",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.41841667,
+            -1.60585093
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 13,
+          "kp": "62",
+          "provinsi": "Kalimantan Tengah"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.14",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.45575057,
+            0.46898762
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 14,
+          "kp": "64",
+          "provinsi": "Kalimantan Timur"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.15",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.2315944,
+            2.92157704
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 15,
+          "kp": "65",
+          "provinsi": "Kalimantan Utara"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.16",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.55738244,
+            -2.45061271
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 16,
+          "kp": "19",
+          "provinsi": "Kepulauan Bangka Belitung"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.17",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            105.40522348,
+            1.47929783
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 17,
+          "kp": "21",
+          "provinsi": "Kepulauan Riau"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.18",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            105.02282611,
+            -4.91707889
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 18,
+          "kp": "18",
+          "provinsi": "Lampung"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.19",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            129.84217188,
+            -4.7419751
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 19,
+          "kp": "81",
+          "provinsi": "Maluku"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.20",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            127.54351053,
+            0.21107332
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 20,
+          "kp": "82",
+          "provinsi": "Maluku Utara"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.21",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            117.50753562,
+            -8.60661812
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 21,
+          "kp": "52",
+          "provinsi": "Nusa Tenggara Barat"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.22",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.69648704,
+            -4.66411313
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 22,
+          "kp": "91",
+          "provinsi": "Papua"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.23",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            132.9717355,
+            -2.04065902
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 23,
+          "kp": "92",
+          "provinsi": "Papua Barat"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.24",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.81343685,
+            0.5090303
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 24,
+          "kp": "14",
+          "provinsi": "Riau"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.25",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            119.35295759,
+            -2.45992242
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 25,
+          "kp": "76",
+          "provinsi": "Sulawesi Barat"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.26",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            120.16445715,
+            -3.7396939
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 26,
+          "kp": "73",
+          "provinsi": "Sulawesi Selatan"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.27",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            121.20732283,
+            -1.01473346
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 27,
+          "kp": "72",
+          "provinsi": "Sulawesi Tengah"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.28",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            122.06942791,
+            -4.13011878
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 28,
+          "kp": "74",
+          "provinsi": "Sulawesi Tenggara"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.29",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            124.52340706,
+            1.26154012
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 29,
+          "kp": "71",
+          "provinsi": "Sulawesi Utara"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.30",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.46678428,
+            -0.85041924
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 30,
+          "kp": "13",
+          "provinsi": "Sumatera Barat"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.31",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            104.16792259,
+            -3.21838053
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 31,
+          "kp": "16",
+          "provinsi": "Sumatera Selatan"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "provinsi_point.32",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            99.05581325,
+            2.19251145
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "fid": 32,
+          "kp": "12",
+          "provinsi": "Sumatera Utara"
+        }
+      }
+    ],
+    "totalFeatures": 32,
+    "numberMatched": 32,
+    "numberReturned": 32,
+    "timeStamp": "2021-05-03T04:34:43.482Z",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:EPSG::4326"
+      }
+    }
+  }

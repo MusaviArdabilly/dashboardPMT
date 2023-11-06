@@ -1,0 +1,25 @@
+.pointer {
+  cursor: pointer !important;
+}
+
+.if_the_type_select {
+  transform: translateY(10px);
+  transition: all 0.5s ease;
+}
+.container-floating {
+  position: relative;
+  .action {
+    position: absolute;
+    right: -10rem;
+    top: 14%;
+  }
+}
+.action {
+  font-size: 2rem !important;
+
+  &.add {
+    position: absolute;
+    right: 0;
+    transition: all 0.3s ease;
+  }
+}

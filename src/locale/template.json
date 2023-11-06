@@ -1,0 +1,147 @@
+{
+  //template
+  "general": {
+    "message": {
+      "error": {
+        "need_login": ""
+      }
+    },
+    "menu": {
+      "executive_dashboard": "",
+      "map": "",
+      "new_map": "",
+      "coverage_throughput_performance": "",
+      "public_opinion_satisfaction": "",
+      "ticketing_summary": "",
+      "operator_alarm": "",
+      "alarm_status": "",
+      "alarm_category": "",
+      "operator": "",
+      "telco_infra_dashboard": "",
+      "alarm_dashboard": "",
+      "qoe_dashboard": "",
+      "qos_dashboard": "",
+      "montel_dashboard": "",
+      "ticketing_management_system": "",
+      "analytics_dashboard": "",
+      "bad_spot": "",
+      "map_infrastructure": "",
+      "admin_settings": "",
+      "user_management": "",
+      "site_settings": "",
+      "activity_log": "",
+      "stage_log": "",
+      "backup": "",
+      "province": "",
+      "city": "",
+      "district": "",
+      "sub_district": "",
+      "operator_cellular": "",
+      "list_application": "",
+      "sub_district_potential": "",
+      "sub_district_potential_category": "",
+      "sub_district_potential_sub-category": ""
+    }
+  },
+  "login": {
+    "form": {
+      "username": "",
+      "password": "",
+      "button_login": ""
+    },
+    "forgot_password": ""
+  },
+  "landing": {
+    "header": {
+      "welcome": "",
+      "app_name": "",
+      "version": ""
+    },
+    "body": {
+      "executive_dashboard": "",
+      "operator": "",
+      "map": "",
+      "analysis_dashboard": "",
+      "ticket_management_system": "",
+      "network_management_system": "",
+      "camera_cctv": ""
+    },
+    "footer": {
+      "create_user": "",
+      "module": "",
+      "docs": "",
+      "contact_us": ""
+    }
+  },
+  "form-validation": {
+    "integer": "",
+    "decimal": "",
+    "required": ""
+  },
+  "ui": {
+    "button_create": "",
+    "button_copy_latlong": "",
+    "button_add_operator": "",
+    "button_create_data": "",
+    "button_save": "",
+    "button_edit": "",
+    "button_delete": "",
+    "button_download": " ",
+    "button_upload": "",
+    "button_submit": "",
+    "button_apply": "",
+    "button_details": " ",
+    "button_reset": "",
+    "button_cancel": "",
+    "button_see_map": "  ",
+    "button_view": "",
+    "button_close": "",
+    "button_send_report": "",
+    "button_create_ticket": "",
+    "button_send_report_ticket": "",
+    "button_test_result": "",
+    "button_device_list": "",
+    "button_summary_ticket": "",
+    "text_piece": {
+      "file": "",
+      "setting": "",
+      "log_out": ""
+    },
+    "message": {
+      "date_range": "",
+      "prepare_data": ""
+    },
+    "field": {
+      "start_date": "",
+      "end_date": "",
+      "province": "",
+      "city": "",
+      "district": "",
+      "sub_district": ""
+    },
+    "table_piece": {
+      "sort": "",
+      "asc": "",
+      "desc": "",
+      "search": "",
+      "service": "",
+      "start_date": "",
+      "end_date": ""
+    },
+    "tooltip_details": "",
+    "menu_title": {
+      "ticketing_management_table": "",
+      "montel_channel": "",
+      "montel_results": "",
+      "ticketing_summary_all": "",
+      "ticketing_summary_cell": "",
+      "ticketing_summary_fo": ""
+    },
+    "summary_card": {
+      "ticket_total": "",
+      "ticket_open": "",
+      "ticket_progress": "",
+      "ticket_closed": ""
+    }
+  }
+}
